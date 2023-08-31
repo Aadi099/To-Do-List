@@ -17,7 +17,7 @@ app.set('views', 'view'); // i have add this bec by mistake i have wrote the nam
 // this is how we connect to local host of mongodb
 // mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlparser:true});
 //this is how we connect to mongog atalas 
-const uri="mongodb+srv://Nikhil:%40Nikhil123@cluster0.ffpvaih.mongodb.net/";
+const uri="mongodb+srv://url to connect to mongodb/";
  mongoose.connect(uri, {useNewUrlParser: true, dbName: "todolistDB"});
 // creating schema 
 const itemsSchema=new mongoose.Schema({
